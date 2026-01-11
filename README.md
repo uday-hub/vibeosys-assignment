@@ -1,16 +1,67 @@
-# React + Vite
+# Vibeosys-assignment
+React Inventory Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# React Inventory Management System
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A simple inventory management system built with **React JS** and **Tailwind CSS**, designed as part of a Junior React Developer assignment.
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Product Management**
+  - Add, edit, and delete products
+  - Fields: Product Name, Unit of Measure, Category, Expiry Date
+  - Form validation for required fields
 
-## Expanding the ESLint configuration
+- **Raw Material Management**
+  - Add, edit, and delete materials for each product
+  - Automatic calculation of total cost, tax (10%), and grand total
+  - Material list displayed dynamically
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **UI/UX**
+  - Clean and responsive layout using Tailwind CSS
+  - Intuitive form layout with labels and error messages
+  - Back button for easy navigation
+
+- **State Management**
+  - Managed using React functional components and useState hooks
+  - Managed using **Redux Toolkit** (productsSlice) for centralized state
+  - Modular components for reusability and scalability
+
+## Technologies Used
+
+- React JS (functional components)
+- Redux Toolkit for state management
+- Tailwind CSS for styling
+- React Router for navigation
+- JavaScript (ES6+)
+- uuid for unique IDs
+
+
+
+## How to Run Locally
+
+1. Clone the repo:
+git clone <your-repo-url>
+cd <repo-folder>
+
+2. Install dependencies:
+npm install
+
+3. Run the development server:
+npm run dev
+
+4. Open the app in your browser:
+http://localhost:5173
+
+## Notes
+
+Form validation ensures no empty product or material is submitted.
+Delete functionality is available for both products and raw materials.
+The project is designed to be easily extendable to integrate with APIs.
+
+## Author
+
+Uday Mohan More  
+https://github.com/uday-hub/  
+https://www.linkedin.com/in/uday-more99
