@@ -25,11 +25,13 @@ A simple inventory management system built with **React JS** and **Tailwind CSS*
 
 - **State Management**
   - Managed using React functional components and useState hooks
+  - Managed using **Redux Toolkit** (productsSlice) for centralized state
   - Modular components for reusability and scalability
 
 ## Technologies Used
 
 - React JS (functional components)
+- Redux Toolkit for state management
 - Tailwind CSS for styling
 - React Router for navigation
 - JavaScript (ES6+)
